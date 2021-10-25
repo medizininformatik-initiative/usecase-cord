@@ -1,7 +1,7 @@
-napkon-module Implementation Guide
+napkon-module-template
 ==================================================
 
-
+This is a template for NAPKON module repositories.
 
 Credits
 -------
