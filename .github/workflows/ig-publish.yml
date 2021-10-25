@@ -1,4 +1,4 @@
-name: ImplementationGuide publisher
+name: ImplementationGuide Publisher
 
 # Controls when the action will run.
 on:
@@ -58,7 +58,7 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     needs: run-publisher
-    if: (github.ref == 'refs/heads/master' || github.ref == 'refs/heads/main') && (github.event.pull_request.merged)
+    if: (github.ref == 'refs/heads/master' || github.ref == 'refs/heads/main')
     steps:
       # deploy implementation guide to github pages
       - name: Deploy
